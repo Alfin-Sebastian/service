@@ -183,6 +183,13 @@ $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
             background: rgba(226, 66, 66, 0.1);
             color: var(--error);
         }
+        .back-link {
+         display: inline-block;
+         margin-top: 30px;
+         color: var(--primary);
+         text-decoration: none;
+         font-weight: 500;
+        }
     </style>
 </head>
 <body>
